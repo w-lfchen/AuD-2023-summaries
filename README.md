@@ -1,5 +1,5 @@
 # AuD-2023-summaries
-My summaries for the AuD 2023 exam. I am unable to give any guarantess about correctness, completeness and such things.
+My summaries for the AuD 2023 exam. I am unable to give any guarantees about correctness, completeness and such things.
 
 # Disclaimer
 If you try to print these documents, code blocks might become black boxes. <br>
