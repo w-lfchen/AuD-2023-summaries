@@ -44,7 +44,7 @@ Seien $f,g: NN arrow.r RR_(>0)$ Funktionen, $NN$ ist die Eingabekomplexität, $R
 Schreibweise: $f in Theta(g), f = Theta(g)$
 - $g(n)$ ist eine asymptotisch scharfe Schranke von $f(n)$
 - $Theta$-Notation beschränkt eine Funktion asymptotisch von oben und unten
-- Beispiel: #link("Insertion Sort"): $T(n) in Theta(n^2)$ für $c_1 = 3/2, c_2 = 7, n_0 = 2$
+- Beispiel: Insertion Sort: $T(n) in Theta(n^2)$ für $c_1 = 3/2, c_2 = 7, n_0 = 2$
 == $O$-Notation
 $g$ ist obere Schranke von $f$\
 $ O(g) := {f: exists c in RR_(>0), n_0 in NN, forall n gt.eq n_0, 0 lt.eq f(n) lt.eq g(n)} $ Sprechweise: $f$ wächst höchstens so schnell wie $g$\
