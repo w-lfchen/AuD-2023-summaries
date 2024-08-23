@@ -1,31 +1,28 @@
----
-tags: aud
----
-# 1. Introduction
+= 1. Introduction
 
-# Algorithmus
+= Algorithmus
 Eine aus endlich vielen Schritten bestehende, ausführbare Handlungsvorschrift zur eindeutigen Umwandlung von Eingabe- in Ausgabedaten
-## Allgemeine Charakteristika
-### 1. Berechenbar
+== Allgemeine Charakteristika
+=== 1. Berechenbar
 1. Finitheit: Algorithmus hat endliche Beschreibung
 2. Terminierung: Algorithmus stoppt in endlicher Zeit
 3. Effektivität: Schritte sind auf Maschine ausführbar
-### 2. Bestimmt
+=== 2. Bestimmt
 1. Determiniertheit: Algorithmus liefert gleiche Ausgabe bei gleicher Eingabe
 2. Determinismus: Algorithmus durchläuft gleiche Zustände bei gleicher Eingabe
-### 3. Anwendbar
+=== 3. Anwendbar
 1. Allgemeinheit: Algorithmus für ganze Problemklasse anwendbar
 2. Korrektheit: Falls Algorithmus terminiert, ist die Ausgabe richtig
 
-# Datenstrukturen
+= Datenstrukturen
 Eine Datenstruktur ist eine Methode um Daten für den Zugriff und die Modifikation zu organisieren
 Datenstrukturen beinhalten:
 1. Daten
 2. Strukturbestandteile (Arrayindizes o.ä.)
-## Abstrakte Datentypen
+== Abstrakte Datentypen
 z.B. Stack, hat nur abstrakte Operationen.
-## Datenstruktur
+== Datenstruktur
 näher an der Maschine, z.B. Stack als Array
-## Datenstrukturen in Algorithmen
+== Datenstrukturen in Algorithmen
 - Algorithmen verwenden Datenstrukturen
 - Datenstrukturen wirken sich auf Effizienz aus
