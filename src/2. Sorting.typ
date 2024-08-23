@@ -107,7 +107,6 @@ bubbleSort(A)
 == Idee: Divide & Conquer (& Combine)
 Teile Liste in Hälften, sortiere (rekursiv) Hälften, sortiere wieder zusammen
 (Teil-)Sortierung erfolgt im Array selbst, Teillisten werden genutzt
-Siehe auch [[7. Advanced Designs]]
 == Algorithmus
 ```
 mergeSort(A,l,r) // initial call: l=0,r=A.length-1
@@ -229,8 +228,8 @@ partition(A,l,r) //requires l<r, returns int in l..r-1
 - Beste asymptotische Laufzeit $Theta(n log n)$
 == Quicksort
 - Worst-Case $Theta(n^2)$, randomisiert erwartet $Theta(n log n)$
-- Praxis: Schneller als [[*Merge Sort*]], da weniger Kopieroperationen
-- Implementierungen nutzen [[*Insertion Sort*]] für kleine $n$
+- Praxis: Schneller als *Merge Sort*, da weniger Kopieroperationen
+- Implementierungen nutzen *Insertion Sort* für kleine $n$
 = Untere Schranke für vergleichsbasiertes Sortieren
 Hier werden nur deterministische Algorithmen betrachtet, im Durchschnitt gilt dies aber auch für randomisierte Algorithmen
 == Genereller Algorithmus
@@ -255,7 +254,7 @@ Jeder (korrekte) vergleichsbasierte Sortieralgorithmus muss mindestens $Omega(n 
 - Schlüssel sind $d$-stellige Werte in $D$-närem Zahlensystem
 - "Buckets" erlauben Einfügen, Entnehmen in eingefügter Reihenfolge
   - konstanter Zeitaufwand
-  - Umsetzung durch [[3. Basic Data Structures*Queues]]
+  - Umsetzung durch Queues
 == Algorithmus
 ```
 radixSort(A) // keys: d digits in range [0,D-1]
