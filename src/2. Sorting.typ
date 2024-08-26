@@ -21,7 +21,7 @@ insertionSort(A)
 		j=j-1;
 	A[j+1]=key;
 ```
-- $A$ ist ein Array/Liste/...
+- $A$ ist ein Array/Liste/$dots$
 - $A[0..i-1]$ ist immer bereits sortiert
 - Wert an der Stelle $A[i]$ wird dann im sortierten Bereich an der richtigen Stelle eingefügt, dabei wird alles immer verschoben
 = Laufzeitanalysen: O-Notation
@@ -33,7 +33,7 @@ Wie viele Schritte macht ein Algorithmus in Abhängigkeit von der Eingabekomplex
 - Nehme ein festes $n$, z.B. Anzahl zu sortierender Elemente
 - Wie oft wird jede Zeile maximal ausgeführt (in Abhängigkeit von $n$)?
 - Jeder Zeile $i$ wird Aufwand $c i$ zugeordnet, wird dann mit Anzahl der Ausführungen multipliziert
-- Elementare Operationen (Zuweisung, Vergleich,...) haben konstanten Aufwand $1$
+- Elementare Operationen (Zuweisung, Vergleich,$dots$) haben konstanten Aufwand $1$
 - $T(n)$ ist dann sehr komplex, siehe Insertion Sort-Beispiel
 == Asymptotische Vereinfachung
 - 1. Vereinfachung: Man nimmt nur dominanten Term $D(n)$ von $T(n)$
@@ -104,7 +104,7 @@ bubbleSort(A)
 - Große Werte "steigen nach oben" und sammeln sich am Ende
 - $A[i.."A.length"-1]$ ist nach jedem Durchlauf der äußeren Schleife korrekt
 = Merge Sort
-== Idee: Divide & Conquer (& Combine)
+== Idee: Divide \& Conquer (\& Combine)
 Teile Liste in Hälften, sortiere (rekursiv) Hälften, sortiere wieder zusammen
 (Teil-)Sortierung erfolgt im Array selbst, Teillisten werden genutzt
 == Algorithmus
@@ -164,7 +164,7 @@ Entscheidend ist das Verhältnis von $f(n)$ zu $n^(log_b a)$:
 	Wenn das Mastertheorem nicht anwendbar ist, ist die Baumstruktur zu analysieren
 = Quicksort
 == Idee
-- Divide & Conquer
+- Divide \& Conquer
 - Mehr Arbeit in Aufteilen, Zusammenfügen kostenlos
 - Wählt 1. Element als Pivot-Element
 - Dann Partitionieren der Elemente, sodass $lt.eq$ Pivot links, $gt.eq$ Pivot rechts
