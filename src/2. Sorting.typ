@@ -236,7 +236,7 @@ Hier werden nur deterministische Algorithmen betrachtet, im Durchschnitt gilt di
 ```
 sortByComp(n) // n is size of input-array A
 // returns array I with sorted indexes:
-// A[ I[i] ] =< A[ I[i+1] ] for i=0,…,n-1
+// A[ I[i] ] =< A[ I[i+1] ] for i=0,...,n-1
 	done=false;
 	WHILE !done DO
 		determine (i,j); // arbitrarily
@@ -258,7 +258,7 @@ Jeder (korrekte) vergleichsbasierte Sortieralgorithmus muss mindestens $Omega(n 
 == Algorithmus
 ```
 radixSort(A) // keys: d digits in range [0,D-1]
-// B[0][],…, B[D-1][] buckets (init: B[k].size=0)
+// B[0][],..., B[D-1][] buckets (init: B[k].size=0)
 	FOR i=0 TO d-1 DO //0 least, d-1 most sign. digit
 		FOR j=0 TO n-1 DO putBucket(A,B,i,j);
 		a=0;
